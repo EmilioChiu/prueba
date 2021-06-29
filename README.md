@@ -1,7 +1,7 @@
 # Prueba
 
 -antes de clonar este repositorio se tendra que clonar y seguir las
-instrucciones del repositorio llamado 'prueba-iot' link: https://github.com/EmilioChiu/prueba-iot/new/master?readme=1 
+instrucciones del repositorio llamado 'prueba-iot' link: https://github.com/EmilioChiu/prueba-iot
 
 -una vez realizado los pasos anteriores se podra clonar este repositorio y ejecutando el comando 'ng serve' se podra visualizar la pagina
 
