@@ -20,6 +20,8 @@ export class GraphComponent implements OnInit {
 
   ngOnInit(): void {
     this.webSocketsService.listen("connect").subscribe((socket:any)=>{
+      // en getData() tenemos que pasar el tipo de dato que nos quiera entregar ('HUM' o 'TEMP') 
+      // y cuanto tiempo de antiguedad quiere los datos en minutos
       this.weather.getData("TEMP", 15).subscribe((response:any)=>{
         this.allData = response;
         var data = [];
